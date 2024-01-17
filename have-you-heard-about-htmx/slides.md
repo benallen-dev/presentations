@@ -1,8 +1,6 @@
 ---
 theme: default
-background: "/htmx-horse.jpeg"
-layout: cover
-class: text-center
+layout: intro
 highlighter: shikiji
 lineNumbers: false
 info: |
@@ -12,35 +10,32 @@ drawings:
   persist: false
 title: HTMX >> React ngl
 mdc: true
+transition: fade
 defaults:
     transition: view-transition
-
 ---
 
-# You probably don't need React
+# Sick presentation about awesome stuff
 
-<v-click>
+## Ben Allen
+### January 18<sup>th</sup> 2024
 
-## For real though, you probably don't
-
-</v-click>
-
-<v-click>
-
-### You think I'm kidding but I'm really not _horsing_ around here
-
-</v-click>
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
+---
+src: ./pages/00-hook.md
+transition: view-transition
+---
 
 ---
 src: ./pages/01-intro.md
 transition: view-transition
 ---
 
-
 ---
 src: ./pages/02-premise.md
+transition: view-transition
+---
+
+---
+src: ./pages/03-demo.md
 transition: view-transition
 ---
