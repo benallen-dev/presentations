@@ -39,3 +39,8 @@ transition: view-transition
 src: ./pages/03-demo.md
 transition: view-transition
 ---
+
+---
+src: ./pages/04-conclusion.md
+transition: view-transition
+---
